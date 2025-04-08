@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A professional Tic Tac Toe game built with modern web technologies" />
+    <meta name="keywords" content="tic tac toe, game, javascript, web game" />
+    <meta name="author" content="Xbesh" />
+    <meta property="og:title" content="Tic Tac Toe" />
+    <meta property="og:description" content="Play a beautiful Tic Tac Toe game online" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#1a1a2e" />
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <div id="app">
+      <h1>Tic Tac Toe</h1>
+      
+      <div class="player-info">
+        <div class="player player-x active">Player X</div>
+        <div class="player player-o">Player O</div>
+      </div>
+      
+      <div id="status">Player X's turn</div>
+      
+      <div id="board">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+      </div>
+      
+      <button id="reset-button">New Game</button>
+      <button id="sound-toggle" title="Mute Sound"><i class="fas fa-volume-up"></i></button>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
